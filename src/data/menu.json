@@ -1,0 +1,18 @@
+{
+  "brands": [
+    { "id": "healthy", "name": "Sam's Healthy Food", "tagline": "Fresh · nourishing · delicious",
+      "logo": "", "categories": [] },
+    { "id": "sweets", "name": "Sam's Sweets", "tagline": "Homemade cookies & mini cakes",
+      "logo": "/images/logo.webp",
+      "categories": [
+        { "id": "cookies", "name": "Cookies", "items": [
+          { "id": "lotus", "name": "Lotus", "desc": "Topped with a Lotus Biscoff", "price": 15, "image": "/images/lotus-cookie.webp", "soldOut": false },
+          { "id": "choc", "name": "Chocolate", "desc": "Loaded with chocolate chips", "price": 15, "image": "/images/chocchip-cookie.webp", "soldOut": false },
+          { "id": "pist", "name": "Pistachio", "desc": "Pistachio pieces & chocolate", "price": 15, "image": "/images/pistachio-cookie.webp", "soldOut": false } ] },
+        { "id": "minis", "name": "Mini cakes", "items": [
+          { "id": "m-nut", "name": "Nutella", "desc": "Chocolate sponge, Nutella swirl", "price": 7, "image": "/images/mini-nutella.webp", "soldOut": false },
+          { "id": "m-car", "name": "Carrot", "desc": "Cream cheese & fresh carrot", "price": 7, "image": "/images/mini-carrot.webp", "soldOut": false },
+          { "id": "m-pis", "name": "Pistachio", "desc": "Cream frosting, crushed pistachio", "price": 7, "image": "/images/mini-pistachio.webp", "soldOut": false } ] }
+      ] }
+  ]
+}
