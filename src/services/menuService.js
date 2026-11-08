@@ -7,3 +7,7 @@ export function getBrands() {
 export function getBrand(id) {
   return menu.brands.find((brand) => brand.id === id)
 }
+
+export function getLanding() {
+  return menu.landing
+}

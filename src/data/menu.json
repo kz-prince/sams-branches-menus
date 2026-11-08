@@ -1,9 +1,19 @@
 {
   "brands": [
     { "id": "healthy", "name": "Sam's Healthy Food", "tagline": "Fresh · nourishing · delicious",
-      "logo": "", "categories": [] },
+      "logo": "", "layout": "list",
+      "theme": { "bg": "#F4F7EE", "card": "#FFFDF7", "line": "#DCE6CF", "accent": "#2F5D3A",
+                 "text": "#1F3D27", "muted": "#3E5A44", "tint": "#E6EEDC", "tintBorder": "#C7D8B5" },
+      "footerNote": "Order & pay at the counter", "footerSub": "Prices in AED, VAT included",
+      "allergyNote": "", "instagram": "",
+      "categories": [] },
     { "id": "sweets", "name": "Sam's Sweets", "tagline": "Homemade cookies & mini cakes",
-      "logo": "/images/logo.webp",
+      "logo": "/images/logo.webp", "layout": "grid",
+      "theme": { "bg": "#F7EFE4", "card": "#FFFBF5", "line": "#E6D4C0", "accent": "#8E3B4A",
+                 "text": "#4A2A1A", "muted": "#7A5A48", "tint": "#F3D3D8", "tintBorder": "#E7A3AE" },
+      "footerNote": "Order & pay at the counter", "footerSub": "Cash or card · Prices in AED, VAT included",
+      "allergyNote": "Pistachio and Nutella items contain nuts. Made in a kitchen that handles nuts, gluten, dairy and egg.",
+      "instagram": "https://instagram.com/",
       "categories": [
         { "id": "cookies", "name": "Cookies", "items": [
           { "id": "lotus", "name": "Lotus", "desc": "Topped with a Lotus Biscoff", "price": 15, "image": "/images/lotus-cookie.webp", "soldOut": false },
@@ -14,5 +24,9 @@
           { "id": "m-car", "name": "Carrot", "desc": "Cream cheese & fresh carrot", "price": 7, "image": "/images/mini-carrot.webp", "soldOut": false },
           { "id": "m-pis", "name": "Pistachio", "desc": "Cream frosting, crushed pistachio", "price": 7, "image": "/images/mini-pistachio.webp", "soldOut": false } ] }
       ] }
-  ]
+  ],
+  "landing": { "eyebrow": "Scan · Choose · Enjoy", "title": "Choose your kitchen",
+               "subtitle": "Pick a brand below to explore its menu and prices.",
+               "note": "Order and pay at the counter · Prices in AED",
+               "footer": "Allergy questions? Ask our team before ordering." }
 }
